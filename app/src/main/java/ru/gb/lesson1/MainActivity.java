@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                         textView.setText("Не равно");
                     }
                 } catch (NumberFormatException ex){
-                    textView.setText("Поле не может быть пустым");
+                    textView.setText("Поле не может быть пустым!");
                 }
 
 
